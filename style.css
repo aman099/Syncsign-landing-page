@@ -1185,7 +1185,11 @@ body {
 }
 
 @media only screen and (max-width: 500px) {
-	/* Herp */
+	.navbar nav#nav,
+	.navbar.sticky nav#nav {
+		padding: 20px 20px;
+	}
+	/* Hero */
 	.hero-container .hero-right img {
 		width: 300px;
 	}
