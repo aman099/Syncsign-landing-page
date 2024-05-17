@@ -1059,6 +1059,7 @@ body {
 		padding-bottom: 0;
 		/*  */
 		min-height: 0;
+		align-self: baseline;
 	}
 	/*  */
 	.calendar-container {
