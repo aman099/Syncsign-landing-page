@@ -356,6 +356,15 @@ body {
 	color: #fff;
 	padding-left: 1rem;
 	padding-top: 0.4rem;
+	/*  */
+	width: 0%;
+	transition: all 1s ease;
+}
+.progress-bar-fill-1.fill {
+	width: 100%;
+}
+.progress-bar-fill-2.fill {
+	width: 15%;
 }
 
 .battery-life .battery-life-right {

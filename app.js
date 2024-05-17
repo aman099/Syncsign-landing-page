@@ -23,3 +23,35 @@ hamburgerIcons.forEach((hamIcon) => {
 		hamIcon.classList.toggle("active");
 	});
 });
+
+//
+const progressBarFill1 = document.querySelector(".progress-bar-fill-1");
+const progressBarFill2 = document.querySelector(".progress-bar-fill-2");
+
+const options = {};
+
+const observer = new IntersectionObserver(function (entries, observer) {
+	entries.forEach((entry) => {
+		if (entry.isIntersecting) {
+			progressBarFill1.classList.add("fill");
+		} else {
+			progressBarFill1.classList.remove("fill");
+		}
+	});
+}, options);
+
+observer.observe(progressBarFill1);
+
+const options2 = {};
+
+const observer2 = new IntersectionObserver(function (entries, observer2) {
+	entries.forEach((entry) => {
+		if (entry.isIntersecting) {
+			progressBarFill2.classList.add("fill");
+		} else {
+			progressBarFill2.classList.remove("fill");
+		}
+	});
+}, options2);
+
+observer2.observe(progressBarFill1);
