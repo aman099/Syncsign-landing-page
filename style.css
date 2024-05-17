@@ -1187,7 +1187,7 @@ body {
 @media only screen and (max-width: 500px) {
 	/* Herp */
 	.hero-container .hero-right img {
-		width: 340px;
+		width: 300px;
 	}
 	/*  */
 	.highly-customizable .highly-customizable-container {
