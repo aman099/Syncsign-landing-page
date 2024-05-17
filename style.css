@@ -1221,9 +1221,15 @@ body {
 	/* Herp */
 	#hero.hero-section {
 		padding: 40px 0px;
+		padding-bottom: 0px;
+	}
+	.hero .hero-container {
+		gap: 2rem;
+		padding-bottom: 100px;
 	}
 	.hero-container .hero-right img {
-		width: 340px;
+		/* width: 340px; */
+		width: 250px;
 	}
 	/*  */
 	.highly-customizable .highly-customizable-container {
