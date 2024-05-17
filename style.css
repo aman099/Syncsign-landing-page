@@ -957,8 +957,9 @@ body {
 		background-color: #ff2121;
 	}
 
-	.navbar nav#nav {
-		padding: 20px 55px;
+	.navbar nav#nav,
+	.navbar.sticky nav#nav {
+		padding: 20px 40px;
 	}
 	.navbar {
 		background: #000;
@@ -1188,6 +1189,9 @@ body {
 	.navbar nav#nav,
 	.navbar.sticky nav#nav {
 		padding: 20px 20px;
+	}
+	#hero.hero-section {
+		padding: 40px 20px;
 	}
 	/* Hero */
 	.hero-container .hero-right img {
